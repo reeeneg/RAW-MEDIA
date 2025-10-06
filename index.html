@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Sitio Web</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+    header, footer { background-color: #5a7a4f; color: #fff; text-align: center; padding: 1em 0; }
+    nav a { margin: 0 10px; color: #fff; text-decoration: none; }
+    main { padding: 20px; }
+    section { margin-bottom: 40px; }
+    .ir-arriba { display: inline-block; margin-top: 20px; background: #5a7a4f; color: #fff; padding: 10px 15px; text-decoration: none; border-radius: 5px; }
+  </style>
+</head>
+<body id="inicio">
+
+  <header>
+    <h1>RAW MEDIA</h1>
+    <nav>
+      <!-- Enlace relativo -->
+      <a href="index.html">Inicio</a>
+      <a href="galeria.html">Galería</a>
+      <!-- Enlace absoluto -->
+      <a href="https://www.instagram.com/rawmediahmo" target="_blank">Instagram</a>
+      <!-- Enlace interno -->
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="presentacion">
+      <h2>RAW</h2>
+      <p>
+        RAW MEDIA es un proyecto de fotografía y creación de contenido para redes sociales que captura imágenes auténticas y de alta calidad, transformando momentos en contenido visual impactante y profesional.
+      </p>
+    </section>
+
+    <section id="contenido">
+      <img src="Img/DSC_5408.jpg" style="object-fit: cover;width:400px"/>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si deseas comunicarte, completa el siguiente formulario:</p>
+      <form>
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre"><br><br>
+        <label>Correo:</label><br>
+        <input type="email" name="correo"><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+      <a href="#inicio" class="ir-arriba">Ir arriba</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 RAW MEDIA. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
